@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uncip Society</title>
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+  <!-- swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Bootstrap icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- my css -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+
+<body class="bg-body-tertiary overflow-x-hidden">
+  <!-- Navbar section start -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Uncip Society</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav fw-semibold ms-auto mb-2 mb-lg-0 mt-lg-0 mt-md-2">
+          <li class="nav-item mt-lg-0 mt-md-0 mt-2 me-0 me-lg-2">
+            <a class="nav-link active ps-2" onclick="setActive ('home')" href="#home">Home</a>
+          </li>
+          <li class="nav-item mt-lg-0 mt-md-0 mt-2 ms-lg-2 ms-0">
+            <a class="nav-link ps-2" onclick="setActive ('about')" href="#about">About</a>
+          </li>
+          <li class="nav-item mt-lg-0 mt-md-0 mt-2 ms-lg-2 ms-0">
+            <a class="nav-link ps-2" onclick="setActive ('gallery')" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item mt-lg-0 mt-md-0 mt-2 ms-lg-2 ms-0">
+            <a class="nav-link ps-2" onclick="setActive ('team')" href="#team">Team</a>
+          </li>
+          <li class="nav-item mt-lg-0 mt-md-0 mt-2 ms-lg-2 ms-0">
+            <a class="nav-link ps-2" onclick="setActive ('contact')" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar section end -->
+
+  <!-- Home section start -->
+  <section id="home" class="home ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-8 d-flex flex-column align-items-start justify-content-end"
+          style="margin-top: 100px;">
+          <h4 class="judul fs-lg-1 fs-sm-1">The</h4>
+          <h2 class="judul fs-2">Beginning of Revolution</h2>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <div class="col">
+          <div class="ratio ratio-21x9 h-50 rounded-4 object-fit-cover position-relative">
+            <div class="row m-sm-1 m-md-1 m-lg-1">
+              <div class="col-7 p-lg-3 p-md-2 text-white">
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem, explicabo cumque
+                  soluta, ipsa illo accusantium error, nemo ad inventore delectus possimus nulla. Ad non asperiores
+                  aliquid tenetur aliquam aspernatur veritatis!</p>
+                <a class="btn border-white border-1" href="#" role="button">Learn More</a>
+                <a class="btn border-white border-1" href="#" role="button">Learn More</a>
+              </div>
+              <div class="col-lg-7 col-md-4 col-6 d-lg-flex justify-content-lg-end">
+                <div class="img1 position-absolute">
+                  <img src="./assets/img/prog.png" alt="gambar1">
+                </div>
+                <div class="img2 position-absolute">
+                  <img src="./assets/img/icon3.png" alt="gambar2">
+                </div>
+                <div class="img3 position-absolute">
+                  <img src="./assets/img/icon2.png" alt="gambar3">
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home section end -->
+
+  <!-- About section start -->
+  <section id="about" class="about mt-5 p-5">
+    <div class="container">
+      <div class="row d-flex position-relative">
+        <div class="col-lg-4 col-md-4 col-12 rounded-3 p-lg-3 p-md-3 p-0 me-md-5 me-0">
+          <div class="kotak w-50 ms-lg-4 ms-md-4 ms-0 border border-white border-3"></div>
+          <div class="kotak w-50 ms-lg-4 ms-md-4 ms-0 mt-3 border border-white border-3"></div>
+          <img src="./assets/img/about.png" alt="about">
+        </div>
+        <div class="col-6  p-2 ms-sm-5 ms-0 d-flex flex-column justify-content-start align-items-start m-auto">
+          <div class="row ms-md-3 m mt-md-0 mt-2">
+            <div class="col-12">
+              <span class="badge text-bg-primary">About Us</span>
+              <h3>Who We Are</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempora! Vero minus soluta nulla et aperiam
+                omnis reiciendis quos, iure autem beatae magnam debitis nihil.
+              </p>
+            </div>
+            <div class="col-12 mt-md-0 mt-1 icons h-100 position-relative rounded-2">
+              <ul class="list-unstyled">
+                <li><img src="./assets/img/icon/ai.svg" alt="ai"></li>
+                <li><img src="./assets/img/icon/developer.svg" alt="developer"></li>
+                <li><img src="./assets/img/icon/robot.svg" alt="robot"></li>
+                <li><img src="./assets/img/icon/technology.svg" alt="technology"></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About section end -->
+
+  <!-- Values section start -->
+  <section id="values" class="values p-lg-5 p-md-5 p-2">
+    <div class="container">
+      <header class="section-header text-center">
+        <span class="badge text-bg-primary mt-5">Our Values</span>
+        <p class="mt-3 fs-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, sequi ipsum dolor maxime
+          delectus reiciendis.</p>
+      </header>
+      <div class="row text-center mt-5">
+        <div class="col-lg-4">
+          <div class="box">
+            <img src="./assets/img/iot.svg" class="img-fluid" alt="iot">
+            <h3>Juduuuuuul</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, eaque.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="box">
+            <img src="./assets/img/programming.svg" class="img-fluid" alt="programming">
+            <h3>Juduuuuuul</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, fugiat!</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="box">
+            <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerjaSama">
+            <h3>Juduuuuuul</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, facilis.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Values section end -->
+
+  <!-- Counts section start -->
+  <section id="counts" class="counts p-1">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box shadow-sm rounded-2">
+            <i class="bi bi-emoji-smile"></i>
+            <div>
+              <span class="purecounter"></span>
+              <h4>500</h4>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box shadow-sm rounded-2">
+            <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+            <div>
+              <span class="purecounter"></span>
+              <h4>200+</h4>
+              <p>Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box shadow-sm rounded-2">
+            <i class="bi bi-headset" style="color: #15be56;"></i>
+            <div>
+              <span class="purecounter"></span>
+              <h4>10</h4>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box shadow-sm rounded-2">
+            <i class="bi bi-people" style="color: #bb0852;"></i>
+            <div>
+              <span class="purecounter"></span>
+              <h4>22</h4>
+              <p>Members</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Counts section end -->
+
+  <!-- Komentar section start -->
+  <section id="testimonials" class="testimonials pb-lg-2">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header text-center">
+        <span class="badge text-bg-primary mt-5">Testimonials</span>
+        <p class="fs-5">What they are saying about us</p>
+      </header>
+
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item rounded-2">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fs-2">&quot;</i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum
+                suscipit rhoncus. Accusantium
+                quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.<i
+                  class="fs-2">&quot;</i>
+              </p>
+              <div class="profile mt-auto">
+                <img src="./assets/img/FOTOFIQRI.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item rounded-2">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fs-2">&quot;</i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum
+                quid cillum eram malis
+                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.<i
+                  class="fs-2">&quot;</i>
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/FOTOFIQRI.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item rounded-2">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fs-2">&quot;</i>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla
+                quem veniam duis minim tempor
+                labore quem eram duis noster aute amet eram fore quis sint minim.<i class="fs-2">&quot;</i>
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/FOTOFIQRI.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item rounded-2">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fs-2">&quot;</i>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export
+                minim fugiat minim velit minim
+                dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.<i
+                  class="fs-2">&quot;</i>
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/FOTOFIQRI.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item rounded-2">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p><i class="fs-2">&quot;</i>Ini adalah sebuah kutipan. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Quisque euismod tincidunt
+                libero, nec rhoncus justo volutpat non. Ut eleifend urna at libero suscipit, ac facilisis libero
+                fermentum. Sed id
+                bibendum nulla.<i class="fs-2">&quot;</i></p>
+              <div class="profile mt-auto">
+                <img src="assets/img/FOTOFIQRI.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Komentar section end -->
+
+  <!-- Gallery section start -->
+  <section id="gallery" class="gallery pb-md-5 pb-0 p-lg-5 p-md-3 p-2">
+
+    <div class="container">
+
+      <header class="section-header text-center">
+        <span class="badge text-bg-primary mt-5">Portfolio</span>
+        <p class="mt-3 fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, fuga.</p>
+      </header>
+
+      <div class="row gy-4 mt-3 gallery-container">
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/programming.svg" class="img-fluid" alt="prog">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerma">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/iot.svg" class="img-fluid" alt="iot">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerma">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/iot.svg" class="img-fluid" alt="iot">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/programming.svg" class="img-fluid" alt="prog">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerma">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/programming.svg" class="img-fluid" alt="prog">
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 gallery-item">
+          <div class="gallery-wrap shadow-sm">
+            <img src="./assets/img/iot.svg" class="img-fluid" alt="iot">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Gallery section end -->
+
+  <!-- Team section start -->
+  <section id="team" class="team pb-md-5 pb-0 p-lg-5 p-md-3 p-2">
+    <div class="container">
+      <header class="section-header text-center">
+        <span class="badge text-bg-primary mt-5">Team</span>
+        <p class="mb-4 mt-1 fs-5">Our hard working team</p>
+      </header>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 d-flex align-items-start">
+          <div class="member rounded-2">
+            <div class="member-img">
+              <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerma">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+              <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum
+                exercitationem
+                iure minima enim corporis et voluptate.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+          <div class="member rounded-2">
+            <div class="member-img">
+              <img src="./assets/img/programming.svg" class="img-fluid" alt="prog">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Sarah Jhonson</h4>
+              <span>Product Manager</span>
+              <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis.
+                Voluptate sed quas reiciendis animi neque sapiente.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="member rounded-2">
+            <div class="member-img">
+              <img src="./assets/img/kerjaSama.svg" class="img-fluid" alt="kerma">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>William Anderson</h4>
+              <span>CTO</span>
+              <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut
+                architecto porro aspernatur molestiae modi.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="member rounded-2">
+            <div class="member-img">
+              <img src="./assets/img/programming.svg" class="img-fluid" alt="prog">
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <h4>Amanda Jepson</h4>
+              <span>Accountant</span>
+              <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut
+                possimus ipsum officia.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Team section end -->
+
+  <!-- Contact section start -->
+  <section id="contact" class="contact p-lg-5 p-3">
+
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header text-center">
+        <span class="badge text-bg-primary mt-5">Contact</span>
+        <p class="mb-4 mt-1 fs-1 fw-semibold">Contact Us</p>
+      </header>
+
+      <div class="row gy-4 mt-2">
+
+        <div class="col-lg-6">
+
+          <div class="row gy-4">
+            <div class="col-md-12 text-center">
+              <div class="info-box p-4 shadow-sm">
+                <i class="fs-1 bi bi-geo-alt"></i>
+                <h3 class="fs-4">Address</h3>
+                <p class="fs-6">A108 Adam Street,New York, NY 535022</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="info-box p-4 shadow-sm">
+                <i class="fs-1 bi bi-envelope"></i>
+                <h3 class="fs-4">Email Us</h3>
+                <p class="fs-6">info@example.com<br>contact@example.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="info-box p-4 shadow-sm">
+                <i class="fs-1 bi bi-telephone"></i>
+                <h3 class="fs-4">Call Us</h3>
+                <p class="fs-6">+1 5589 55488 55<br>+1 6678 254445 41</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+          <form action="forms/contact.php" method="post" class="php-email-form rounded-2 text-white shadow-sm">
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+
+              <div class="col-md-6 ">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <button type="submit">Send Message</button>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- Contact section end -->
+
+  <!-- Footer section start -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row p-lg-5 p-md-4 p-4">
+        <div class="col-lg-3 col-md-3 p-lg-0 p-md-0 p-2">
+          <img src="./assets/img/uncipLogo (1).jpg" class="img-fluid w-100 h-100" width="200" alt="">
+        </div>
+        <div class="col-lg-3 col-md-3 col-6 ">
+          <h4>Uncip Society</h4>
+          <p class="fs-6">A108 Adam Street<br>
+            New York, NY 535022<br>
+            United States
+            <br>
+            <br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-2 col-6">
+          <h4 class="ms-3">Akses Cepat</h4>
+          <ul class="list-unstyled fw-semibold ms-3">
+            <li class="mb-1"><a href="#home" class="text-decoration-none text-white">Home</a></li>
+            <li class="mt-1"><a href="#about" class="text-decoration-none text-white">About</a></li>
+            <li class="mt-1"><a href="#gallery" class="text-decoration-none text-white">Gallery</a></li>
+            <li class="mt-1"><a href="#team" class="text-decoration-none text-white">Team</a></li>
+            <li class="mt-1"><a href="#contact" class="text-decoration-none text-white">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+          <h4>Social Networks</h4>
+          <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione libero modi laudantium?</p>
+          <div class="sosmed">
+            <a class="me-2" href=""><i class=" bi bi-instagram"></i></a>
+            <a class="me-2" href=""><i class="bi bi-tiktok"></i></a>
+            <a class="me-2" href=""><i class="bi bi-whatsapp"></i></a>
+            <a class="me-2" href=""><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="text-center p-3 text-white bg-dark mt-lg-0 mt-md-0 mt-4">
+      © 2024 Copyright :
+      <a href="" class=" text-white text-decoration-none">Distech Management</a>
+      <br>
+      <span style="font-size: 12px;">Designed by <a href="https://www.instagram.com/afiz_muhamad/" target="_blank"
+          class="text-decoration-none text-danger">@syedmhafizf</a></span>
+    </div>
+  </footer>
+  <!-- Footer section end -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts.js"></script>
+
+  < </body>
+
+</html>
